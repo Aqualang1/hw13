@@ -1,8 +1,8 @@
-let login = document.getElementById('login');
-let password = document.querySelector('#password');
-let btn = document.querySelector("#btn");
-let panel = document.querySelector('.panel');
-let stamp = document.createElement('div');
+const login = document.getElementById('login');
+const password = document.querySelector('#password');
+const  btn = document.querySelector("#btn");
+const panel = document.querySelector('.panel');
+const stamp = document.createElement('div');
 let n = 5;
 
 function counter() {
