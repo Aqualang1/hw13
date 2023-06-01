@@ -10,7 +10,7 @@ function counter() {
     stamp.classList.add('stamp');
     panel.appendChild(stamp);
     n--;
-    if (n > 0) {
+    if (n >= 0) {
         return setTimeout(counter, 1000);
     } else {
         window.location.href = 'profile.html';
