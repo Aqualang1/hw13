@@ -19,7 +19,7 @@ function counter() {
 
 btn.addEventListener('click', (event) => {
     event.preventDefault();
-    if (login.value === '' || password.value.length === 0) {
+     if (login.value === '' || password.value.length === 0) { //то був експеримент. Коли я запевнився що обидва методи перевірки повертають одне і те саме вирішив залишити обидва, для демонстрації цього ефекту. 
         stamp.textContent = 'Please, enter valid value';
         stamp.classList.add('stamp');
         panel.appendChild(stamp);
